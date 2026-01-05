@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Search from "./Components/Search.jsx";
-import Spinner from "./Components/spinner";
+import Spinner from "./Components/Spinner.jsx";
+
 import MovieCard from "./Components/MovieCard.jsx";
 import { useDebounce } from "react-use";  
 import { updateSearchCount } from "./appwrite.js";
